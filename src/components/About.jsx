@@ -17,8 +17,8 @@ function About() {
         <h3>Skills</h3>
 
         <ul className="skills-list">
-          <li>HTML</li>
-          <li>CSS</li>
+          <li>C++</li>
+          <li>Ada</li>
           <li>JavaScript</li>
           <li>React</li>
           <li>Python</li>

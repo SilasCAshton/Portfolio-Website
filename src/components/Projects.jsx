@@ -15,7 +15,7 @@ const projects = [
     title: "Project Three",
     description:
       "Add a third project here. Portfolio projects can include school projects, personal tools, or experiments.",
-    link: "https://www.youtube.com/",
+    link: "#",
   },
 ];
 

@@ -2,11 +2,11 @@ function Hero() {
   return (
     <section id="home" className="hero">
       <div className="hero-content">
-        <h1>Hi, I'm Your Name.</h1>
+        <h1>Hi, I'm Silas Ashton.</h1>
 
         <p className="hero-subtitle">
-          I am a software developer interested in building useful applications,
-          solving technical problems, and learning modern web technologies.
+          I’m a software engineering graduate building practical web applications,
+          embedded systems projects, and tools that solve real problems.
         </p>
 
         <div className="hero-buttons">
