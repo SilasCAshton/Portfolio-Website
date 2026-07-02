@@ -5,8 +5,8 @@ function About() {
         <h2>About Me</h2>
 
         <p>
-          Write a short paragraph about who you are, what you are studying or
-          working on, and what kind of software development you are interested in.
+          Hello! I am software engineering graduate from PSU world campus and I am passionate about the world
+          of computer programming
         </p>
 
         <p>
@@ -20,6 +20,7 @@ function About() {
           <li>C++</li>
           <li>Ada</li>
           <li>JavaScript</li>
+          <li>React</li>
           <li>React</li>
           <li>Python</li>
           <li>Git</li>
