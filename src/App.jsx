@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar.jsx";
-import Hero from "./components/Hero.jsx";
-import About from "./components/About.jsx";
-import Projects from "./components/Projects.jsx";
+import Hero from "./components/Footer.jsx";
+import About from "./pages/About.jsx";
+import Projects from "./pages/Projects.js";
 import Contact from "./components/Contact.jsx";
 import { useState } from "react";
 
@@ -13,6 +13,7 @@ function App() {
   }
 
 
+
   return (
     <div className={isDarkMode ? "app dark" : "app"}>
       <Navbar isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
@@ -20,8 +21,11 @@ function App() {
         <Hero />
         <About />
         <Projects />
-        <Contact />
+        
+        //<Contact />
+        
       </main>
+
     </div>
   );
 }
