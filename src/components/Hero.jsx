@@ -14,7 +14,7 @@ function Hero() {
             View Projects
           </a>
 
-          <a href="#contact" className="button button-secondary">
+          <a href="#Footer" className="button button-secondary">
             Contact Me
           </a>
         </div>
