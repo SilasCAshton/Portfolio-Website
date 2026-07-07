@@ -1,28 +1,15 @@
-import { Link } from "react-router";
-import "./Footer.css";
-
 function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="site-footer">
+    <footer id="footer" className="site-footer">
       <div className="footer-inner">
         <div className="footer-brand">
-          <Link to="/" className="footer-logo">
-            SA
-          </Link>
-
           <p className="footer-tagline">
-            Software engineering graduate building practical web applications,
-            embedded systems projects, and useful software tools.
+            I’m open to software development opportunities, collaboration, and
+            connecting with other developers.
           </p>
         </div>
-
-        <nav className="footer-nav" aria-label="Footer navigation">
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/projects">Projects</Link>
-        </nav>
 
         <div className="footer-links">
           <a
@@ -30,18 +17,18 @@ function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            GitHub
+            GitHub: SilasCAshton
           </a>
 
           <a
-            href="https://www.linkedin.com/in/silascashton/"
+            href="https://www.linkedin.com/in/silas-ashton-225291264/"
             target="_blank"
             rel="noreferrer"
           >
-            LinkedIn
+            LinkedIn: SilasCAshton
           </a>
 
-          <a href="mailto:silascashton@gmail.com">Email</a>
+          <a href="mailto:silascashton@gmail.com">silascashton@gmail.com</a>
         </div>
       </div>
 

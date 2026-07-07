@@ -1,0 +1,36 @@
+.skills-intro {
+  max-width: 720px;
+  margin-bottom: 2rem;
+  color: var(--color-muted-text);
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.skills-card h3 {
+  margin-bottom: 0.75rem;
+  color: var(--color-heading);
+}
+
+.skills-card p {
+  color: var(--color-muted-text);
+  line-height: 1.6;
+}
+
+.skills-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding: 0;
+  margin: 1.25rem 0 0;
+  list-style: none;
+}
+
+.skills-chip-list li {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  padding: 0.5rem 0.85rem;
+  color: var(--color-text);
+  font-size: 0.95rem;
+  font-weight: 600;
+}

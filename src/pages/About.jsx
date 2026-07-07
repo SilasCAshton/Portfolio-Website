@@ -1,8 +1,19 @@
 function About() {
   return (
-    <section id="about" className="about">
+    <section id="about" className="content-section about">
       <div className="section-content">
-        <h2>About Me</h2>
+        <div className="about-header">
+
+          <h1>Let me introduce myself</h1>
+
+          <img 
+            src="/SA_Portrait.png"
+            alt="Silas Ashton's portrait photo"  
+            className="about-photo" 
+          />
+
+        </div>
+
 
     <p>
       Hello! I’m passionate about technology and excited by the way software systems
@@ -41,17 +52,6 @@ function About() {
       excitement are some of the best tools for continued growth.
     </p>
 
-        <h3>Skills</h3>
-
-        <ul className="skills-list">
-          <li>C++</li>
-          <li>Ada</li>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>React</li>
-          <li>Python</li>
-          <li>Git</li>
-        </ul>
       </div>
     </section>
   );
