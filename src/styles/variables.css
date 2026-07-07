@@ -1,0 +1,53 @@
+:root {
+  /* Fonts */
+  font-family: Arial, Helvetica, sans-serif;
+
+  /* Layout */
+  --content-width: 1000px;
+  --section-padding: 5rem 2rem;
+  --section-padding-mobile: 4rem 1.25rem;
+  --card-padding: 1.5rem;
+
+  /* Shape */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-pill: 999px;
+
+  /* Light mode colors */
+  --color-page-bg: #f5f5f4;
+  --color-surface: #ffffff;
+  --color-surface-alt: #e7e5e4;
+
+  --color-text: #292524;
+  --color-heading: #1c1917;
+  --color-muted-text: #57534e;
+  --color-border: #d6d3d1;
+
+  --color-primary: #dc2626;
+  --color-primary-hover: #b91c1c;
+  --color-primary-text: #ffffff;
+
+  /* Shadows */
+  --shadow-soft: 0 4px 12px rgba(15, 23, 42, 0.12);
+  --shadow-hover: 0 8px 18px rgba(15, 23, 42, 0.18);
+}
+
+.dark {
+  /* Dark mode colors */
+  --color-page-bg: #1c1917;
+  --color-surface: #292524;
+  --color-surface-alt: #44403c;
+
+  --color-text: #f5f5f4;
+  --color-heading: #ffffff;
+  --color-muted-text: #d6d3d1;
+  --color-border: #57534e;
+
+  --color-primary: #f87171;
+  --color-primary-hover: #ef4444;
+  --color-primary-text: #1c1917;
+
+  --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.25);
+  --shadow-hover: 0 8px 18px rgba(0, 0, 0, 0.35);
+}

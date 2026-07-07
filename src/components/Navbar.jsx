@@ -1,21 +1,37 @@
-function Navbar({ isDarkMode, toggleTheme }) {
+function Navbar({
+  isDarkMode,
+  toggleTheme,
+  activeSection,
+  sections,
+  onSectionChange,
+}) {
   return (
     <header className="navbar">
-      <nav className="navbar-content">
-        <a href="#home" className="navbar-name">
+      <div className="navbar-content">
+        <button className="navbar-name" onClick={() => onSectionChange("about")}>
           Silas Ashton
-        </a>
+        </button>
 
-        <div className="navbar-links">
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
+        <nav className="navbar-links" aria-label="Main navigation">
+          {sections.map(({ id, label }) => (
+            <button
+              key={id}
+              className={`navbar-link ${activeSection === id ? "active" : ""}`}
+              onClick={() => onSectionChange(id)}
+            >
+              {label}
+            </button>
+          ))}
+
+          <a href="#footer" className="navbar-link">
+            Contact
+          </a>
 
           <button className="theme-toggle" onClick={toggleTheme}>
-            {isDarkMode ? "Light Mode" : "Dark Mode"}
+            {isDarkMode ? "Light" : "Dark"}
           </button>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </header>
   );
 }

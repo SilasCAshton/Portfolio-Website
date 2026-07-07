@@ -1,0 +1,27 @@
+.project-card-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.project-image {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  border-radius: 0.75rem;
+  flex-shrink: 0;
+}
+
+.project-card-header h3 {
+  margin: 0;
+}
+
+.project-card a {
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.project-card a:hover {
+  color: var(--color-primary-hover);
+}

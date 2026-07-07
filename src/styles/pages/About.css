@@ -1,0 +1,27 @@
+.about-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.about-header h1 {
+  margin: 0;
+}
+
+.about-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--color-primary);
+  flex-shrink: 0;
+}
+
+@media (max-width: 700px) {
+  .about-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

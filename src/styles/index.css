@@ -1,0 +1,10 @@
+@import "./variables.css";
+@import "./base.css";
+
+@import "./components/Navbar.css";
+@import "./components/Footer.css";
+@import "./components/Home.css";
+
+@import "./pages/About.css";
+@import "./pages/Projects.css";
+@import "./pages/Skills.css";
