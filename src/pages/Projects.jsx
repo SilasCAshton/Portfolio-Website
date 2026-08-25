@@ -1,5 +1,12 @@
 const projects = [
   {
+    title: "TableLark Restaurant Finder",
+    image: "Tablelark-Logo.png",
+    description:
+      "TableLark is a full-stack restaurant discovery application built with Next.js, React, Google Maps, and the Google Places API. It helps users find popular restaurants and hidden local gems through location-based searches, cuisine filters, interactive map results, and a custom ranking algorithm that evaluates ratings and review data.",
+    link: "https://tablelark.com",
+  },
+  {
     title: "Ada Baremetal Programmer",
     image: "Ada_Logo.png",
     description:
