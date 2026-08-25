@@ -8,12 +8,12 @@ const skillGroups = [
   {
     title: "Web Development",
     description: "Tools and technologies I use to build responsive and interactive web applications.",
-    skills: ["React", "HTML", "CSS", "Vite", "Vercel"],
+    skills: ["React", "HTML", "CSS", "Next.js", "Vercel", "Google APIs"],
   },
   {
     title: "Embedded & Hardware",
     description: "Experience working close to hardware through microcontrollers, FPGA tools, and sensor-based systems.",
-    skills: ["Raspberry Pi", "RP2040", "FPGA", "JTAG", "UART", "I2C", "RISC-V", "NEORV32"],
+    skills: ["Raspberry Pi", "RP2040", "FPGA", "JTAG", "RISC-V", "NEORV32"],
   },
   {
     title: "Tools & Workflow",
